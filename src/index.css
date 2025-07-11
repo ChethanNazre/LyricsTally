@@ -1,0 +1,39 @@
+/* index.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    
+}
+body {
+  font-family: sans-serif;
+ background: linear-gradient(145deg, #e0c3fc 0%, #8ec5fc 100%);
+  color: #222;
+}
+
+footer {
+  color: #ff0000;
+  text-align: center;
+  margin-top: 14rem;
+  padding: 1rem;
+}
+
+h1 {
+  color: #333;
+  font-size: 2rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  footer {
+    margin-top: 3rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+  h1 {
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+  }
+}

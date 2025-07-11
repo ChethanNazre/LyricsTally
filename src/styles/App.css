@@ -1,0 +1,25 @@
+/* src/styles/App.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(90deg, #ff7e5f, #feb47b, #6dd5ed);
+}
+h1 {
+  color: #4a5568;
+}
+
+@media (max-width: 640px) {
+  .responsive-container {
+    padding: 1rem;
+    font-size: 14px;
+  }
+
+  .responsive-heading {
+    font-size: 1.5rem;
+  }
+  .responsive-text {
+    font-size: 1rem;
+  }
+  
+  
+}
